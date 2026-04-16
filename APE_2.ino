@@ -18,9 +18,9 @@ void setup() {
 }
 
 void loop() {
-  leerBoton();  // Llamar a la función para leer el botón
+  leerBoton();  
 
-  switch (patronActual) {  // Según el patrón actual, ejecutar una función
+  switch (patronActual) {  
     case 0:
       patronSecuencia();
       break;
@@ -125,6 +125,6 @@ void patronOnda() {
       }
     }
 
-    lastTime = millis();  // Actualizar el tiempo de la última acción
+    lastTime = millis();  // Actualizar el tiempo 
   }
 }
